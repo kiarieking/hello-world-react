@@ -1,23 +1,45 @@
 import logo from './logo.svg';
 import './App.css';
+import Welcomemsg from './component/Greet';
+import Welcome from './component/Welcome';
+import Hello from './component/Hello';
+import Message from './component/Message'
+import Counter from './component/Counter'
+import FunctiononClick from './component/FunctiononClick';
+import ClassonClick from './component/ClassonClick';
+import Eventbind from './component/Eventbind';
+import ParentComponent from './component/ParentComponent';
+import UserGreeting from './component/UserGreeting';
+import NameList from './component/NameList';
+import SuperHero from './component/SuperHero';
+import Styling from './component/Styling';
+import inline from './component/Inline';
+import Inline from './component/Inline';
+import './appcss.css'
+import styles from './appcss.module.css'
+import Form from './component/Form'
+import Eventbind2 from './component/Eventbind2';
+import Classcounter from './component/Classcounter';
+import ComponentLifecycle from './component/ComponentLifecycle';
+import FragmentDemo from './component/FragmentDemo';
+import Table from './component/Table';
+import ParentComp from './component/ParentComp';
+import RefDemo from './component/RefDemo';
+import FocusInput from './component/FocusInput';
+import FRparentinput from './component/FRparentinput';
+import PortalDemo from './component/PortalDemo';
+import Props from './main-topics/Props';
+import BtnUpdateState from './main-topics/BtnUpdateState';
+import CssStyling from './main-topics/CssStyling';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      kiarie
+     {/* <Props/> */}
+     {/* <BtnUpdateState/> */}
+     <CssStyling/>
     </div>
   );
 }
