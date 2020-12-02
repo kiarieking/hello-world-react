@@ -31,15 +31,25 @@ import PortalDemo from './component/PortalDemo';
 import Props from './main-topics/Props';
 import BtnUpdateState from './main-topics/BtnUpdateState';
 import CssStyling from './main-topics/CssStyling';
+import Hero from './main-topics/Hero';
+import ErrorBoundary from './main-topics/ErrorBoundary';
 
 
 function App() {
   return (
     <div className="App">
-      kiarie
-     {/* <Props/> */}
-     {/* <BtnUpdateState/> */}
-     <CssStyling/>
+      <ErrorBoundary>
+          <Hero heroname='Captain America'/>
+      </ErrorBoundary>
+      <ErrorBoundary>  
+          <Hero heroname='Black Panther'/>
+      </ErrorBoundary>
+      <ErrorBoundary>  
+          <Hero heroname='Iron man'/>
+      </ErrorBoundary>
+      <ErrorBoundary>  
+          <Hero heroname='Eternal'/>
+      </ErrorBoundary>    
     </div>
   );
 }
