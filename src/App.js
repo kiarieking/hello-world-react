@@ -33,12 +33,14 @@ import BtnUpdateState from './main-topics/BtnUpdateState';
 import CssStyling from './main-topics/CssStyling';
 import Hero from './main-topics/Hero';
 import ErrorBoundary from './main-topics/ErrorBoundary';
-
+import PostList from './httpGetPost/PostList';
+import PostContent from './httpGetPost/PostContent';
+import PostForm from './httpGetPost/PostForm';
 
 function App() {
   return (
     <div className="App">
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
           <Hero heroname='Captain America'/>
       </ErrorBoundary>
       <ErrorBoundary>  
@@ -49,7 +51,10 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>  
           <Hero heroname='Eternal'/>
-      </ErrorBoundary>    
+      </ErrorBoundary>     */}
+      {/* <PostList/> */}
+      {/* <PostContent/> */}
+      <PostForm/>
     </div>
   );
 }
