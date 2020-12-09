@@ -36,6 +36,8 @@ import ErrorBoundary from './main-topics/ErrorBoundary';
 import PostList from './httpGetPost/PostList';
 import PostContent from './httpGetPost/PostContent';
 import PostForm from './httpGetPost/PostForm';
+import PostForm2 from './httpGetPost/PostForm2';
+import BtsFile from './Bootstrap/BtsFile';
 
 function App() {
   return (
@@ -54,7 +56,8 @@ function App() {
       </ErrorBoundary>     */}
       {/* <PostList/> */}
       {/* <PostContent/> */}
-      <PostForm/>
+      {/* <PostForm2/> */}
+      <BtsFile/>
     </div>
   );
 }
