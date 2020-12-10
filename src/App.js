@@ -4,13 +4,15 @@ import './App.css';
 import CounterHook from './Hooks/CounterHook';
 import HookCounter from './Hooks/HookCounter';
 import HookPrevState from './Hooks/HookPrevState';
+import HooksStateObject from './Hooks/HooksStateObject';
 
 function App() {
   return (
     <div className="App">
       {/* <CounterHook/> */}
       {/* <HookCounter/> */}
-      <HookPrevState/>
+      {/* <HookPrevState/> */}
+      <HooksStateObject/>
     </div>
   );
 }
