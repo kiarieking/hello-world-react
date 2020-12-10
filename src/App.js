@@ -5,6 +5,7 @@ import CounterHook from './Hooks/CounterHook';
 import HookCounter from './Hooks/HookCounter';
 import HookPrevState from './Hooks/HookPrevState';
 import HooksStateObject from './Hooks/HooksStateObject';
+import HookStateBootstrap from './Hooks/HookStateBootstrap';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <CounterHook/> */}
       {/* <HookCounter/> */}
       {/* <HookPrevState/> */}
-      <HooksStateObject/>
+      {/* <HooksStateObject/> */}
+      <HookStateBootstrap/>
     </div>
   );
 }
