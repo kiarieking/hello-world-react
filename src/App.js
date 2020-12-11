@@ -2,6 +2,7 @@
 import './App.css';
 
 import CounterHook from './Hooks/CounterHook';
+import HookArray from './Hooks/HookArray';
 import HookCounter from './Hooks/HookCounter';
 import HookPrevState from './Hooks/HookPrevState';
 import HooksStateObject from './Hooks/HooksStateObject';
@@ -14,7 +15,8 @@ function App() {
       {/* <HookCounter/> */}
       {/* <HookPrevState/> */}
       {/* <HooksStateObject/> */}
-      <HookStateBootstrap/>
+      {/* <HookStateBootstrap/> */}
+      <HookArray/>
     </div>
   );
 }

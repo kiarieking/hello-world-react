@@ -10,7 +10,7 @@ function HookStateBootstrap() {
         let emailw = detail.email
         let passwordw = detail.password
         let detailw = emailw + " " + passwordw
-        
+        alert(detailw)
     }
     return (
         <div>
