@@ -2,11 +2,13 @@
 import './App.css';
 
 import CounterHook from './Hooks/CounterHook';
+import DocumentTitle from './Hooks/DocumentTitle';
 import HookArray from './Hooks/HookArray';
 import HookCounter from './Hooks/HookCounter';
 import HookPrevState from './Hooks/HookPrevState';
 import HooksStateObject from './Hooks/HooksStateObject';
 import HookStateBootstrap from './Hooks/HookStateBootstrap';
+import PrevStateHook from './Hooks/PrevStateHook';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       {/* <HookPrevState/> */}
       {/* <HooksStateObject/> */}
       {/* <HookStateBootstrap/> */}
-      <HookArray/>
+      {/* <HookArray/> */}
+      {/* <PrevStateHook/> */}
+      <DocumentTitle/>
     </div>
   );
 }

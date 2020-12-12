@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 function HookArray() {
     const ino = [1,]
-    const [items, setItems]=useState([1,2,3])
+    const [items, setItems]=useState([])
 
     const addItem=()=>{
         setItems([...items,{
