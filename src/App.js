@@ -2,7 +2,9 @@
 
 import './App.css';
 import ClassMousePosition from './Hooks/ClassMousePosition';
+import HideMousePosition from './Hooks/HideMousePosition';
 import HookMousePosition from './Hooks/HookMousePosition';
+import MouseXY from './Hooks/MouseXY';
 
 
 function App() {
@@ -10,7 +12,8 @@ function App() {
     <div className="App">
      
       {/* <ClassMousePosition/> */}
-      <HookMousePosition/>
+      {/* <HookMousePosition/> */}
+      <HideMousePosition/>
     </div>
   );
 }
