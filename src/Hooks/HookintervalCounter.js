@@ -16,7 +16,7 @@ function HookintervalCounter() {
     })
     return (
         <div>
-           <h2>time lapse: {count}</h2> 
+           <h2>new year push: {count}</h2> 
         </div>
     )
 }
